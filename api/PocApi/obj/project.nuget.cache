@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lgvUHs0oHjPx2CvOhVre57zmld4snZsvIyAxd7NQmfRTomc1i8JmoGEJwEQpWkuprNi7BQh7Ea9owmhxrVsuQw==",
+  "dgSpecHash": "ipq/RyaZZrhdt5J62sDh2DwkoCdbXioOqOykswS8w7xlaUhk/PxtcXvA8Q2wwMgGik94ACPSu4JcHepkGO1EDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dane\\Desktop\\Work\\Stratus21\\Projects\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
+  "projectFilePath": "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dane\\.nuget\\packages\\graphql\\7.7.2\\graphql.7.7.2.nupkg.sha512",
     "C:\\Users\\dane\\.nuget\\packages\\graphql-parser\\8.4.2\\graphql-parser.8.4.2.nupkg.sha512",
