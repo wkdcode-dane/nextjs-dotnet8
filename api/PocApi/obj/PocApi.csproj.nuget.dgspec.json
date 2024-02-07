@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dane\\Desktop\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj": {}
+    "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dane\\Desktop\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj": {
+    "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dane\\Desktop\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
+        "projectUniqueName": "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
         "projectName": "PocApi",
-        "projectPath": "C:\\Users\\dane\\Desktop\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
+        "projectPath": "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\PocApi.csproj",
         "packagesPath": "C:\\Users\\dane\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dane\\Desktop\\nextjs-dotnet8\\api\\PocApi\\obj\\",
+        "outputPath": "C:\\Users\\dane\\Desktop\\Work\\WebDev\\GithubRepos\\nextjs-dotnet8\\api\\PocApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

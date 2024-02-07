@@ -4,7 +4,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 // Data Fetching
-import ApiFetchCart from "@/api/ApiFetchWeather";
+import { ApiFetchClasses } from "@/api/ApiFetchClasses";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={inter.className}>
 				<GlobalApiProvider>
-					<ApiFetchCart/>
+					<ApiFetchClasses />
 					{children}
 				</GlobalApiProvider>
 			</body>
