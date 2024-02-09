@@ -23,6 +23,7 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<GlobalApiProvider>
 					<ApiFetchClasses />
+					<h1>Some text</h1>
 					{children}
 				</GlobalApiProvider>
 			</body>

@@ -1,14 +1,14 @@
-import { ApiFetchClass } from "@/api/ApiFetchClass";
 import { ClassListingItem } from "@/types/Classes";
 import { ApiRequest } from '@/utils/ApiRequest';
+import { useQuery } from "react-query";
+import { RouteParams } from "@/types/Params"; 
 
-export default async function Page({ params }: { params: { slug: string } }) {
-    console.log();
+// Page Template
+import ClassPage from "@/components/templates/ClassPage";
+
+export default function Page({ params }: { params: { slug: string } }) {
     return (
-        <div>
-            <ApiFetchClass slug={params?.slug} />
-            <p>Post page</p>
-        </div>
+        <ClassPage slug={params.slug} />
     );
 }
 

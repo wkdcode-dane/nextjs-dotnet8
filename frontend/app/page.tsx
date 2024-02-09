@@ -1,5 +1,5 @@
 "use client"
-import ClassListing from "@/components/ClassListing";
+import ClassListing from "@/components/templates/ClassListing";
 
 export default function Home() {
 	return (
