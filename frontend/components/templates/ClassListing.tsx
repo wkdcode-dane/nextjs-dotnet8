@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useQuery } from '@tanstack/react-query';
 import { ClassesResponse } from "@/types/Classes";
 import { ClassIconPicker } from '@/utils/ClassIconPicker';
+import ClassColourPicker from '@/utils/ClassColourPicker';
 
 const ClassListing = () => {
     const { isLoading, isError, data: ClassListing, error, isFetching, refetch } = useQuery<ClassesResponse>({
@@ -34,11 +35,11 @@ const ClassListing = () => {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
                         {classes.map(classItem => (
                             <Link 
-                                className="flex flex-col justify-center items-center p-5 rounded-md border-gray-300 border transition-colors hover:bg-emerald-300"
+                                className={`flex flex-col justify-center items-center p-5 rounded-md border-gray-300 border transition-colors hover:border-black ${ClassColourPicker(classItem.index)?.bg}`}
                                 href={`class/${classItem.index}`}
                                 key={classItem.index}>
                                 <div className="mb-4">
-                                    {ClassIconPicker(classItem.index)}
+                                    {ClassIconPicker(classItem.index, 150, 150, "")}
                                 </div>
                                 <h2 className="text-xl">{classItem.name}</h2>
                                 <p>View Class</p>
